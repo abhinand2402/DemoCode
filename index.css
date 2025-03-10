@@ -1,0 +1,77 @@
+/* Global reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Section */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 5%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero / Main Content Section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    padding: 0 5%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+    max-width: 600px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
